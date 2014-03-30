@@ -74,11 +74,11 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 ## Keyboard mappings
 
-The default keyboard settings use the **Escape** key for autocompletion. To use the **tab** key instead you will need to add some complex custom keyboard mappings (Preferences -> "Key Bindings - User"). Copy the bindings found in `Autocompletion/Tabs.sublime-keymap`.
+The default keyboard settings use the **Escape** key for autocompletion. To use the **tab** key instead you will need to add some complex custom keyboard mappings:
 
-## Add Keybindings
+Select `Preferences > "Key Bindings - User"` and copy the bindings found in `Autocompletion/Tabs.sublime-keymap`.
 
-Open your User Keybinding File and add the following keybinding to activate the toggle command in all file types:
+Also, to anable the ERB toggle command in all file add the following keybinding:
 
 ```json
   [
@@ -86,7 +86,7 @@ Open your User Keybinding File and add the following keybinding to activate the 
   ]
 ```
 
-...or only in the most common ERB contexts:
+...or if you only want the most common ERB contexts:
 
 ```json
   [
@@ -98,7 +98,8 @@ Open your User Keybinding File and add the following keybinding to activate the 
   ]
 ```
 
-Now you can use `ctrl+shift+.` to create and toggle between ERB tags. NOTE: On a Mac use the command key for the ctrl key.
+Now you can use `ctrl+shift+.` to create and toggle between ERB tags.
+NOTE: On a Mac use the command key for the ctrl key.
 
 ## Tests Settings
 
