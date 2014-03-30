@@ -100,7 +100,3 @@ Also, to anable the ERB toggle command in all file add the following keybinding:
 
 Now you can use `ctrl+shift+.` to create and toggle between ERB tags.
 NOTE: On a Mac use the command key for the ctrl key.
-
-## Tests Settings
-
-Select `Preferences > Package Settings > RubyTest`
