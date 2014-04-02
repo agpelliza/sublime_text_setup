@@ -103,14 +103,8 @@ Also, to anable the ERB toggle command in all file add the following keybinding:
  - Ruby & Rails Themes and Syntax Highlighting
  - SASS & Haml Syntax Highlighting
  - Rails Snippets
- - Alternative auto-completion
-    - Hitting the autocomplete key will attempt to complete the current word by looking at similar words in the current document.
-    - Hitting the autocomplete key multiple times will cycle through the available words.
-    - The last autocomplete position is remembered, so you can perform an autocompletion, move the cursor around, move back to where you were, and continue cycling through the completions.
-    - Candidate completions are selected prioritized by distance to the cursor.  
-    (If no candidates are found, the plugin reverts to using a simple fuzzy, case-insensitive matching algorithm that is similar to Sublime's file/class matching algorithm. For example, typing `appc` might match `ApplicationController`.)
-    
- - ERB Toggle between tags  
+ - Alternative Auto-completion
+ - ERB Toggle Between Tags  
  - Ruby Tests
     - Ruby Unit Tests (all tests from file / single test)  
     - Cucumber Tests (feature / scenario)  
@@ -118,9 +112,22 @@ Also, to anable the ERB toggle command in all file add the following keybinding:
 
 ## Usage
 
- - Use `ctrl+shift+.` to create and toggle between ERB tags.  
-   (NOTE: On a Mac use the command key for the ctrl key.)
- - Run single ruby test: `Command-Shift-R`
+### Alternative auto-completion
+ 
+- Hitting the autocomplete key will attempt to complete the current word by looking at similar words in the current document.
+- Hitting the autocomplete key multiple times will cycle through the available words.
+- The last autocomplete position is remembered, so you can perform an autocompletion, move the cursor around, move back to where you were, and continue cycling through the completions.
+- Candidate completions are selected prioritized by distance to the cursor.  
+(If no candidates are found, the plugin reverts to using a simple fuzzy, case-insensitive matching algorithm that is similar to Sublime's file/class matching algorithm. For example, typing `appc` might match `ApplicationController`.)
+
+### ERB Toggle Between Tags  
+
+- Use `ctrl+shift+.` to create and toggle between ERB tags.  
+(NOTE: On a Mac use the command key for the ctrl key.)
+
+### Ruby Tests
+
+- Run single ruby test: `Command-Shift-R`
  - Run all ruby tests from current file: `Command-Shift-T`
  - Run last ruby test(s): `Command-Shift-E`
  - Show test panel: `Command-Shift-X` (when test panel visible hit `esc` to hide it)
@@ -130,5 +137,5 @@ Also, to anable the ERB toggle command in all file add the following keybinding:
     - Split View:  `Command-Ctrl-.`
  - Easy file creation: `Command-Shift-C`
 Keys:
- 'Command' (OSX)
  'Ctrl' (Linux / Windows)
+ 'Command' (OSX)
