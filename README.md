@@ -2,7 +2,19 @@
 
 These are the steps needed to set up [Sublime Text](http://www.sublimetext.com/). Instructions are for Linux; OS X and Windows users should make substitutions as necessary. (This may require web searches. Please let me know if you find something that you think should be included here.)
 
-## Command-line Command
+## Features
+
+ - Ruby & Rails Themes and Syntax Highlighting
+ - SASS & Haml Syntax Highlighting
+ - Rails Snippets
+ - Alternative Auto-completion
+ - ERB Toggle Between Tags  
+ - Ruby Tests
+    - Ruby Unit Tests (all tests from file / single test)  
+    - Cucumber Tests (feature / scenario)  
+    - Rspec (full spec, single spec)  
+
+## Install / Command-line Command
 
 ### Linux
 
@@ -97,18 +109,6 @@ Also, to anable the ERB toggle command in all file add the following keybinding:
     }
   ]
 ```
-
-## Features
-
- - Ruby & Rails Themes and Syntax Highlighting
- - SASS & Haml Syntax Highlighting
- - Rails Snippets
- - Alternative Auto-completion
- - ERB Toggle Between Tags  
- - Ruby Tests
-    - Ruby Unit Tests (all tests from file / single test)  
-    - Cucumber Tests (feature / scenario)  
-    - Rspec (full spec, single spec)  
 
 ## Usage
 
